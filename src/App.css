@@ -1,0 +1,13 @@
+:root{
+  --title-color:#003366;
+  --bg--color:#0066cc;
+  --danger-color:#8F0404;
+  --danger-color2:#770808;
+}
+*{
+  box-sizing: border-box;
+  font-family: "Tajawal", sans-serif;
+}
+body{
+ background-color: #ffff;
+}

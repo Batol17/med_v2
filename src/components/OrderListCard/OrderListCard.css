@@ -1,0 +1,118 @@
+.orders-list-card{
+    border-radius:16px;
+    border:1px solid #eee;
+    margin-bottom:14px;
+    padding:8px 12px;
+    transition:0.2s;
+    background:#fff;
+  }
+  
+  .orders-list-card:hover{
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    transform:translateY(-2px);
+  }
+  
+  /* layout */
+  .orders-list-body{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  
+  /* ===== RIGHT ===== */
+  .orders-list-right{
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  
+  .orders-list-info{
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .orders-list-id{
+    font-weight:600;
+    font-size:14px;
+  }
+  
+  .orders-list-time{
+    font-size:12px;
+    color:#888;
+  }
+  
+  /* ===== CENTER ===== */
+  .orders-list-center{
+    display:flex;
+    align-items:center;
+    gap:40px;
+  }
+  
+  .orders-user{
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  
+  .orders-user img{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    object-fit:cover;
+  }
+  
+  .orders-name{
+    margin:0;
+    font-weight:600;
+  }
+  
+  .orders-username{
+    margin:0;
+    font-size:12px;
+    color:#777;
+  }
+  
+  .orders-meds{
+    font-size:14px;
+    color:#444;
+  }
+  
+  /* ===== LEFT ===== */
+  .orders-payment{
+    font-weight:700;
+    color:#1E3A8A;
+  }
+  
+  /* ===== STATUS ===== */
+  .orders-status{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:12px;
+  }
+  
+  /* الدائرة */
+  .dot{
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:currentColor;
+  }
+  
+  /* ألوان */
+  .orders-status-new{
+    background:#E3F2FD;
+    color:#1976D2;
+  }
+  
+  .orders-status-processing{
+    background:#FFF3E0;
+    color:#F57C00;
+  }
+  
+  .orders-status-ready{
+    background:#E8F5E9;
+    color:#2E7D32;
+  }

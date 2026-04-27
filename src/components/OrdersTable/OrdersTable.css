@@ -1,0 +1,19 @@
+/* حدود الجدول */
+.thick-table,
+.thick-table th,
+.thick-table td {
+  border: 4px solid #CCCCCC;
+}
+
+/* زيادة المسافة داخل الخلايا */
+.thick-table th,
+.thick-table td {
+  padding: 24px 17px; /* زيادة البادينغ */
+  vertical-align: middle; /* توسيط المحتوى عمودياً */
+}
+
+/* تنسيق رأس الجدول */
+.thick-table thead th {
+  font-weight: 700;
+  background: #F7F7F7;
+}

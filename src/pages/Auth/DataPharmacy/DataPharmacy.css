@@ -1,0 +1,362 @@
+.data-pharmacy-page-wrapper {
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  background-color: transparent;
+}
+
+.data-pharmacy-container {
+  padding: 10px;
+  background-color: #fff;
+  direction: rtl;
+}
+
+.data-pharmacy-header-section {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.main-title {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.sub-title {
+  color: #666;
+  font-size: 36px;
+  font-weight: 400;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.form-box-container {
+  background-color: #ebebeb;
+  border-radius: 12px;
+  padding: 40px 30px;
+  min-height: 520px;
+  box-shadow: none;
+}
+
+.right-box-tabs {
+  margin-left: 0;
+}
+
+.left-box-inputs {
+  margin-right: 0;
+}
+
+/* Right Box Styling (Inputs) */
+.input-field-group , .working-hours-header-row  {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.input-field-group label ,
+.working-hours-main-label{
+  font-size: 18px;
+  color: #333;
+  text-align: right;
+  white-space: nowrap;
+  font-weight: 500;
+  width: 120px;
+}
+
+.star {
+  color: #d9534f;
+  margin-right: 2px;
+}
+
+.working-hours-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+  justify-content: flex-start;
+ 
+
+}
+
+
+
+.working-hours-select-box {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 60px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  width: 280px;
+  transition: all 0.3s ease;
+  
+  background-color: #f3f3f3;
+}
+
+.working-hours-select-box.open {
+  border: 1px solid #003366;
+}
+
+.pharmacy-input-field {
+  flex: 0 0 280px;
+  height: 45px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 15px;
+  background-color: #f3f3f3;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.working-hours-inputs-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+.hour-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hour-label {
+  font-size: 16px;
+  color: #333;
+  width: 140px;
+  flex-shrink: 0;
+}
+
+.hour-input-field {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f3f3f3;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.pharmacy-logo {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.select-text-content {
+  font-size: 11px;
+  color: #888;
+  line-height: 1.6;
+  text-align: right;
+  flex-grow: 1;
+}
+
+.down-arrow-icon {
+  color: #004d99;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.down-arrow-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.working-hours-collapsible {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.working-hours-collapsible.show {
+  max-height: 300px;
+  opacity: 1;
+}
+
+/* Left Box Styling (Tabs) */
+.tabs-header-nav {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  gap: 0;
+  padding: 0;
+}
+
+.tab-nav-item {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+  transition: all 0.2s ease;
+  border-radius: 8px 8px 0 0;
+  font-weight: 500;
+}
+
+.tab-nav-item.active {
+  background-color: #003366;
+  color: #fff;
+}
+
+.tab-body-content .textarea-wrapper{
+  display: block;
+  width: 100%;
+  
+  background-color: #f3f3f3;
+}
+.tab-body-content {
+  display: block;
+  width: 100%;
+  
+}
+
+/* Social Links Content */
+.social-links-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.social-link-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  width: 100%;
+  direction: rtl;
+}
+
+.social-input {
+  
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  flex-grow: 1;
+  font-size: 14px;
+  color: #888;
+  outline: none;
+  text-align: right;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.social-icon-img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* Upload Images Content */
+.upload-images-wrapper {
+  width: 100%;
+  height: 300px;
+  display: block;
+  
+}
+
+.upload-box {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+  background-color: #f3f3f3;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.upload-label {
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-icon-img {
+  width: 60px;
+  margin-bottom: 15px;
+  opacity: 0.6;
+}
+
+.upload-label p {
+  color: #888;
+  font-size: 16px;
+  margin: 0;
+}
+
+.textarea-wrapper {
+  width: 100%;
+  height: 300px;
+ 
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.pharmacy-textarea {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  outline: none;
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+  line-height: 1.8;
+}
+
+/* Footer Button Styling */
+.form-footer-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.pharmacy-save-btn {
+  background-color: #0061c1;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  padding: 14px 80px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pharmacy-save-btn:hover {
+  background-color: #004d99;
+}

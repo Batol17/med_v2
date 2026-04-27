@@ -1,0 +1,159 @@
+.sidebar {
+  width: 201px;
+  min-height: 464px;
+  background: #F2F2F2;
+  margin-top: 14px;
+  text-align: center;
+  padding: 15px;
+}
+
+/* للحالات مثل login / success */
+.sidebar-hide {
+  min-height: 464px;
+}
+
+/* 🔥 الحالة الخاصة لصفحة data-pharmacy */
+.sidebar-data-pharmacy {
+  height: fit-content;
+  min-height: unset;
+}
+
+.logo{
+  width:111px;
+  height:97px;
+}
+
+.content-logo{
+  width:100%;
+  height:75px;
+}
+
+.title-logo{
+  color:var(--title-color);
+  font-weight:bold;
+  font-size:24px;
+  font-style:italic;
+  font-family:sans-serif;
+}
+
+.desc{
+  font-family:'Tajawal', sans-serif;
+  font-weight:400;
+  font-size:10px;
+  line-height:20.9px;
+  text-align:center;
+  direction:rtl;
+  margin-bottom:20px;
+  color:#003366;
+}
+
+/* GRID */
+
+.menu-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  row-gap:24px;
+  column-gap:10px;
+  justify-items:center;
+  align-items:center;
+  justify-content:center;
+  margin-top:20px;
+}
+
+/* menu item */
+
+.menu-item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  color:black;
+  gap:4px;
+  padding:5px;
+  border-radius:10px;
+  transition:0.3s;
+
+  width:80px;
+}
+
+/* hover effect */
+
+.menu-item:hover{
+  box-shadow:0 6px 14px rgba(0,0,0,0.08);
+  transform:translateY(-4px);
+}
+
+/* active style */
+
+.menu-item.active{
+  box-shadow:0 0 14px rgba(0,0,0,0.12);
+  transform:translateY(-2px);
+}
+/* .menu-item.active .icon-wrapper{
+  box-shadow:0 0 10px rgba(0,0,0,0.15);
+  border-radius:8px;
+} */
+/* النص يصبح bold */
+
+.menu-item.active span{
+  font-weight:900;
+}
+
+/* icon wrapper */
+
+.icon-wrapper{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:36px;
+  height:36px;
+  margin:auto;
+}
+
+.menu-grid span{
+  font-size:8px;
+  font-weight:500;
+  line-height:100%;
+  text-align:center;
+
+  word-break:keep-all;
+  overflow-wrap:normal;
+}
+
+/* icons */
+
+.icon-default,
+.icon-hover{
+  position:absolute;
+  width:100%;
+  height:100%;
+  transition:opacity 0.2s ease;
+}
+
+/* hide second icon */
+
+.icon-hover{
+  opacity:0;
+}
+
+/* hover لا يغير الايقونة */
+
+.menu-item:hover .icon-hover{
+  opacity:0;
+}
+
+.menu-item:hover .icon-default{
+  opacity:1;
+}
+
+/* الصفحة النشطة */
+
+.menu-item.active .icon-hover{
+  opacity:1;
+}
+
+.menu-item.active .icon-default{
+  opacity:0;
+}

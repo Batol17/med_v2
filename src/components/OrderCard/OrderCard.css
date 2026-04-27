@@ -1,0 +1,139 @@
+/* card */
+.orders-card{
+    border-radius:18px;
+    border:3px solid #ddd;
+    padding:20px;
+    background:#fff;
+  }
+  
+  /* header */
+  .orders-card-header{
+    display:flex;
+    justify-content:flex-end;
+  }
+  
+  /* line */
+  .orders-card hr{
+    margin:15px 0;
+  }
+  
+  /* status */
+  .orders-status{
+    padding:6px 16px;
+    border-radius:20px;
+    font-size:14px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  
+  .dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:currentColor;
+  }
+  
+  .orders-status-new{
+    background:#e6f0ff;
+    color:#2b6cb0;
+  }
+  
+  /* USER */
+  .orders-user{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin:15px 0;
+  }
+  
+  .orders-user img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+  }
+  
+  .orders-user h5{
+    margin:0;
+    font-weight:700;
+    color:#0b3a6d;
+  }
+  
+  /* DETAILS */
+  .orders-details{
+    text-align:right;
+    margin:10px 0;
+  }
+  
+  .orders-details p{
+    margin:5px 0;
+    font-size:14px;
+  }
+  
+  .orders-details ul{
+    margin:0;
+    padding-right:18px;
+    font-size:14px;
+  }
+  .order-card-title{
+    font-weight: 400 !important;
+    font-size: 20px;
+    margin-right: 14px;
+
+  }
+  
+  /* middle */
+  .orders-middle{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:15px 0;
+  }
+  
+  .orders-prescription{
+    width:80px;
+    height:60px;
+    border-radius:8px;
+  }
+  
+  .orders-card-payment{
+    font-size:24px;
+    font-weight:800;
+    color:#0b3a6d;
+  }
+  
+  /* buttons */
+  .orders-card-actions{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+  }
+  
+  .orders-btn-accept{
+    background:#d4f5e4 !important;
+    color:#1ca05e !important;
+    border:2px solid #1ca05e !important;
+    flex:1;
+  }
+  
+  .orders-btn-reject{
+    background:#fff !important;
+    color:#e04b4b !important;
+    border:2px solid #e04b4b !important;
+    flex:1;
+  }
+  
+  .orders-btn-done{
+    width:100%;
+    background:#f6e9d6 !important;
+    color:#b1732d !important;
+    border:none !important;
+  }
+  
+  .orders-btn-deliver{
+    width:100%;
+    background:#d4f5e4 !important;
+    color:#1ca05e !important;
+    border:none !important;
+  }
